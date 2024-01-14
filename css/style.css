@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;400;500;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #041020;
+}
+
+/* Login Card */
+
+.login-card{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #0C3064;
+  padding: 30px 25px;
+  border-radius: 7px;
+  box-shadow: 0 2px 50px #000;
+  color: #fdfdfd;
+  min-width: 60vw;
+}
+
+.login-card h1{
+  text-align: center;
+  margin-bottom: 25px
+}
+
+.text-field{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+  padding: 7px;
+  border-radius: 10px;
+  background-color: #fdfdfd;
+  margin-bottom: 17px;
+}
+
+.text-field i{
+  color: #1C74EE;
+  padding: 0 5px;
+}
+
+.text-field input{
+  outline: none;
+  border: none;
+  padding: 3px;
+  flex:1;
+}
+
+.form-control{
+  display: flex;
+  gap: 7%;
+}
+
+.form-control button{
+  flex: 1;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px 0 0 0;
+  background-color: #1C74EE;
+  font-weight: bold;
+  color: #fdfdfd;
+  cursor: pointer;
+  letter-spacing: 1px
+}
+
+.form-control button:hover{
+  opacity: .9;
+}
