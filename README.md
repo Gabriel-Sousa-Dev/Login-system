@@ -1,7 +1,7 @@
 # Login-system
 Uma sistema simples de login
 Utilizando:
-- Html
-- Css
+- HTML
+- CSS
 - Javascript
 - PHP
