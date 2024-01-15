@@ -74,7 +74,7 @@
         <input type="password" name="password" id="password" placeholder="Password">
       </div>
       <div class="form-control">
-        <button><a href="cadastro.html">Cadastrar</a></button>
+        <button><a href="cadastro.php">Cadastrar</a></button>
         <button type="submit" name="btnSubmit" id="btnSubmit">Logar</button>
       </div>
     </form>
