@@ -75,7 +75,7 @@
       </div>
       <div class="form-control">
         <button><a href="cadastro.php">Cadastrar</a></button>
-        <button type="submit" name="btnSubmit" id="btnSubmit">Logar</button>
+        <button type="submit" name="btnSubmit" id="btnSubmit"><a href="php/logout.php">Logar</a></button>
       </div>
     </form>
     
