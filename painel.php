@@ -24,19 +24,19 @@
     
     <div class="info-field">
       <p class="info">User:</p>
-      <p class="info-value"><?= $_SESSION["usuario"]->nome ?></p>
+      <p class="info-value"><?= $_SESSION["usuario"]->user_name ?></p>
     </div>
     <div class="info-field">
       <p class="info">E-mail:</p>
-      <p class="info-value"><?= $_SESSION["usuario"]->email ?></p>
+      <p class="info-value"><?= $_SESSION["usuario"]->user_email ?></p>
     </div>
     <div class="info-field">
       <p class="info">Password:</p>
-      <p class="info-value"><?= $_SESSION["usuario"]->senha ?></p>
+      <p class="info-value"><?= $_SESSION["usuario"]->user_password ?></p>
     </div>
     <div class="info-field">
       <p class="info">Age:</p>
-      <p class="info-value"><?= $_SESSION["usuario"]->idade ?></p>
+      <p class="info-value"><?= $_SESSION["usuario"]->user_age ?></p>
     </div>
     
     <div class="form-control">
