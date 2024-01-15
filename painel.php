@@ -1,3 +1,10 @@
+<?php
+  include("php/protect.php");
+
+  if(!isset($_SESSION)){
+      session_start();
+  }
+?>
 <!DOCTYPE html>
 <html>
 
@@ -17,19 +24,19 @@
     
     <div class="info-field">
       <p class="info">User:</p>
-      <p class="info-value">Gabriel</p>
+      <p class="info-value"><?= $_SESSION["usuario"]->nome ?></p>
     </div>
     <div class="info-field">
       <p class="info">E-mail:</p>
-      <p class="info-value">Gabriel</p>
+      <p class="info-value"><?= $_SESSION["usuario"]->email ?></p>
     </div>
     <div class="info-field">
       <p class="info">Password:</p>
-      <p class="info-value">Gabriel</p>
+      <p class="info-value"><?= $_SESSION["usuario"]->senha ?></p>
     </div>
     <div class="info-field">
       <p class="info">Age:</p>
-      <p class="info-value">Gabriel</p>
+      <p class="info-value"><?= $_SESSION["usuario"]->idade ?></p>
     </div>
     
     <div class="form-control">
