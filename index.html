@@ -13,23 +13,25 @@
 
   <div class="login-card">
     
-    <h1>Login</h1>
-    <div class="text-field">
-      <i class="fa-solid fa-user"></i>
-      <input type="text" name="input-user" placeholder="User">
-    </div>
-    <div class="text-field">
-      <i class="fa-solid fa-lock"></i>
-      <input type="password" name="input-password" placeholder="Password">
-    </div>
-    <div class="form-control">
-      <button type="submit">Cadastrar</button>
-      <button type="reset">Logar</button>
-    </div>
+    <form id="form-login">
+      <h1>Login</h1>
+      <div class="text-field">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" name="user" id="user" placeholder="User">
+      </div>
+      <div class="text-field">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" name="password" id="password" placeholder="Password">
+      </div>
+      <div class="form-control">
+        <button><a href="cadastro.html">Cadastrar</a></button>
+        <button type="submit" id="btnSubmit">Logar</button>
+      </div>
+    </form>
     
   </div>
 
-<script src="js/script.js"></script>
+<script src="js/script-index.js" defer></script>
 </body>
 
 </html>
