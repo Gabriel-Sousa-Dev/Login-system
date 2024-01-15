@@ -13,25 +13,38 @@
 
   <div class="login-card">
     
-    <form id="form-login">
-      <h1>Login</h1>
+    <h1>Cadastro</h1>
+    
+    <form id="form-cad">
       <div class="text-field">
         <i class="fa-solid fa-user"></i>
-        <input type="text" name="user" id="user" placeholder="User">
+        <input type="text" name="user" id="user" placeholder="User*">
       </div>
+    
+      <div class="text-field">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" name="email" id="email" placeholder="Email*">
+      </div>
+    
       <div class="text-field">
         <i class="fa-solid fa-lock"></i>
-        <input type="password" name="password" id="password" placeholder="Password">
+        <input type="password" name="password" id="password" placeholder="Password*">
       </div>
+    
+      <div class="text-field">
+        <i class="fa-solid fa-calendar-days"></i>
+        <input type="number" name="age" id="age" placeholder="Age">
+      </div>
+    
       <div class="form-control">
-        <button><a href="cadastro.html">Cadastrar</a></button>
-        <button type="submit" id="btnSubmit">Logar</button>
+        <button type="submit" id="btnCad">Cadastrar</button>
+        <!-- <button type="reset">Logar</button> -->
       </div>
     </form>
     
   </div>
 
-<script src="js/script-index.js" defer></script>
+<script src="js/script-cadastro.js" defer></script>
 </body>
 
 </html>

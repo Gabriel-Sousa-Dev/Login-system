@@ -59,6 +59,11 @@ body{
   gap: 7%;
 }
 
+a{
+  color: #fdfdfd;
+  text-decoration: none;
+}
+
 .form-control button{
   flex: 1;
   border: none;
@@ -74,4 +79,27 @@ body{
 
 .form-control button:hover{
   opacity: .9;
+}
+
+/* Painel */
+.info-field{
+  /* padding: px; */
+  border-bottom: solid 1px #fdfdfd;
+  margin-bottom: 18px;
+}
+
+.info-field p.info{
+  font-weight: bold;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: purple;
+  width: fit-content;
+}
+/* falta ajeitar a cor do fundo do p.ifo */
+.info-field p.info-value{
+  padding: 3px 8px;
+}
+
+button.btn-logout{
+  background-color: #ED3232;
 }
