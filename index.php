@@ -63,7 +63,7 @@
 
   <div class="login-card">
     
-    <form id="form-login">
+    <form id="form-login" method="post" action="">
       <h1>Login</h1>
       <div class="text-field">
         <i class="fa-solid fa-user"></i>
