@@ -41,7 +41,7 @@
     
     <div class="form-control">
       <button type="submit">Editar</button>
-      <button type="submit" class="btn-logout">Logout</button>
+      <button type="submit" class="btn-logout"><a href="php/logout.php">Logout<a></button>
     </div>
     
   </div>
