@@ -1,3 +1,29 @@
+<?php
+  if(isset($_POST["btnCad"])){
+      if(isset($_POST["user"]) && isset($_POST["email"]) && isset($_POST["password"])){
+          include("php/conn.php");
+          echo "<p style=\"color:white\">pk</p>";
+          $nome = $_POST["user"];
+          $email = $_POST["email"];
+          $senha = $_POST["password"];
+          $idade = $_POST["age"] ?? "null";
+          
+          $query = "INSERT INTO loginSystem.tb_user VALUES(null, ?, ?, ?, ?)";
+        
+          $stmt = $conn -> prepare($query);
+        
+          $stmt -> bindParam(1, $nome);
+          $stmt -> bindParam(2, $email);
+          $stmt -> bindParam(3, $senha);
+          $stmt -> bindParam(4, $idade);
+          
+          $stmt -> execute();
+
+      }else{
+          echo "Preencha todos os campos que possuem asteriscos";
+      }
+  }
+?>
 <!DOCTYPE html>
 <html>
 
