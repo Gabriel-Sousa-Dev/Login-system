@@ -15,7 +15,7 @@
     
     <h1>Cadastro</h1>
     
-    <form id="form-cad">
+    <form id="form-cad" action="" method="post">
       <div class="text-field">
         <i class="fa-solid fa-user"></i>
         <input type="text" name="user" id="user" placeholder="User*">
@@ -37,14 +37,14 @@
       </div>
     
       <div class="form-control">
-        <button type="submit" id="btnCad">Cadastrar</button>
+        <button type="submit" name="btnCad" id="btnCad">Cadastrar</button>
         <!-- <button type="reset">Logar</button> -->
       </div>
     </form>
     
   </div>
 
-<script src="js/script-cadastro.js" defer></script>
+<-- <script src="js/script-cadastro.js" defer></script> -->
 </body>
 
 </html>
