@@ -69,8 +69,7 @@
     </form>
     
   </div>
-
-<-- <script src="js/script-cadastro.js" defer></script> -->
+  
 </body>
 
 </html>
