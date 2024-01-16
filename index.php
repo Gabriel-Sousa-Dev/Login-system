@@ -10,7 +10,7 @@
           $email = $_POST["user"];
           $senha = $_POST["password"];
         
-          $query = 'SELECT * FROM Login.tb_user WHERE user_email = ? AND user_password = ?';
+          $query = 'SELECT * FROM loginSystem.tb_user WHERE user_email = ? AND user_password = ?';
         
           $stmt = $conn -> prepare($query);
         
