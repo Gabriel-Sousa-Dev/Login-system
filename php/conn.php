@@ -1,7 +1,7 @@
 <?php
 try{
     $host = "192.168.0.3";
-    $bdname = "Login";
+    $bdname = "loginSystem";
     $user = "root";
     $password = "root";
     
