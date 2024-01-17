@@ -44,7 +44,7 @@
     <form id="form-cad" action="" method="post">
       <div class="text-field">
         <i class="fa-solid fa-user"></i>
-        <input type="text" name="user" id="user" placeholder="User*">
+        <input type="text" name="user" id="user" placeholder="Username*">
       </div>
     
       <div class="text-field">
