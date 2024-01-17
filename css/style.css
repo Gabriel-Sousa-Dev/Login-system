@@ -89,6 +89,15 @@ a{
   margin-bottom: 18px;
 }
 
+.btn-delete{
+  color: #E18F8F;
+  padding: 5px;
+  text-decoration: none;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
 .info-field p.info{
   font-weight: bold;
   padding: 5px;
