@@ -62,6 +62,7 @@ body{
 a{
   color: #fdfdfd;
   text-decoration: none;
+  text-align: center;
 }
 
 .form-control button{
@@ -96,8 +97,16 @@ a{
   width: fit-content;
 }
 /* falta ajeitar a cor do fundo do p.ifo */
-.info-field p.info-value{
+.info-field p.info-value, input{
   padding: 3px 8px;
+}
+
+.info-field input{
+  color: #fdfdfd;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
 }
 
 button.btn-logout{
