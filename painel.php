@@ -21,6 +21,8 @@
   <div class="login-card">
     
     <h1>Dados do Usuário</h1>
+
+    <a href="delete.php" class="btn-delete"><i class="fa-solid fa-circle-xmark"></i></a>
     
     <div class="info-field">
       <p class="info">User:</p>
@@ -41,7 +43,7 @@
     
     <div class="form-control">
       <button type="submit"><a href="editar.php">Editar</a></button>
-      <button type="submit" class="btn-logout"><a href="php/logout.php">Logout<a></button>
+      <button type="submit" class="btn-logout"><a href="php/logout.php">Logout</a></button>
     </div>
     
   </div>
