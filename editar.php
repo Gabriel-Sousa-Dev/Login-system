@@ -15,6 +15,8 @@
 
     <h1>Editar Usuário</h1>
 
+    <form>
+
     <div class="info-field">
       <p class="info">User:</p>
       <input type="text" name="">
@@ -36,6 +38,8 @@
       <button type="submit">Ok</button>
       <button type="submit" class="btn-logout"><a href="painel.html">Voltar</a></button>
     </div>
+
+    </form>
 
   </div>
 
