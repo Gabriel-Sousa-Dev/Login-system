@@ -1,4 +1,4 @@
-CREATE DATABASE loginSystem
+CREATE DATABASE loginSystem;
 CREATE TABLE `tb_user` (
   `user_id` int(100) NOT NULL AUTO_INCREMENT,
   `user_name` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
