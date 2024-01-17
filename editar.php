@@ -36,7 +36,7 @@
 
     <div class="form-control">
       <button type="submit">Ok</button>
-      <button type="submit" class="btn-logout"><a href="painel.html">Voltar</a></button>
+      <button type="submit" class="btn-logout"><a href="painel.php">Voltar</a></button>
     </div>
 
     </form>
