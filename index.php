@@ -66,8 +66,8 @@
     <form id="form-login" method="post" action="">
       <h1>Login</h1>
       <div class="text-field">
-        <i class="fa-solid fa-user"></i>
-        <input type="text" name="user" id="user" placeholder="User">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" name="user" id="user" placeholder="Email">
       </div>
       <div class="text-field">
         <i class="fa-solid fa-lock"></i>
